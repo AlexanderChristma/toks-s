@@ -303,7 +303,7 @@ const product = document.querySelectorAll(".product");
 const pname = document.getElementsByTagName("h2");
 
 for(var i = 0; i <pname.length; i++){
-let mmn =  product.getElementsByTagName('h2')[0]
+let mmn =  product[i].getElementsByTagName('h2')[0]
 if(mmn){
     let knc = mmn.innerHTML
     if(knc.toUpperCase().indexOf(searchbox) > -1){

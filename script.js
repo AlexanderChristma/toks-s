@@ -13,4 +13,13 @@ close.addEventListener("click", ()=> {
     nav.classList.remove("active");
 })
 
+var typed = new typed('.type', {
+    strings:[
+        'Hello', 'My name'
+    ],
+    typeSpeed:100,
+    backSpeed:70,
+    loop:true,
+});
+
 
